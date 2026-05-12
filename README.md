@@ -31,9 +31,6 @@ To track pending orders, revenue at risk, order status distribution, city-wise p
 - Date Range
 - Order Type
 
-## Dashboard Preview
-
-![Dashboard Overview](screenshots/dashboard_overview.png)
 
 ## Business Logic
 
