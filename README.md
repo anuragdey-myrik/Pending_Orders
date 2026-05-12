@@ -1,2 +1,52 @@
 # Pending_Orders
-Metabase dashboard and SQL analysis for monitoring pending orders, revenue at risk, order status distribution, city-wise filters, date filters, and bulk/non-bulk order insights.
+
+
+# Pending Orders Dashboard
+
+This project contains SQL queries and dashboard documentation for monitoring pending orders in Metabase.
+
+## Objective
+
+To track pending orders, revenue at risk, order status distribution, city-wise performance, date-wise filtering, and bulk/non-bulk order segmentation.
+
+## Tools Used
+
+- PostgreSQL
+- Metabase
+- SQL
+- GitHub
+
+## Key Metrics
+
+- Total Pending Orders
+- Total Pending Revenue
+- Pending Orders by Order Status
+- City-wise Pending Orders
+- Bulk vs Non-Bulk Orders
+- Ageing Bucket Analysis
+
+## Dashboard Filters
+
+- City Name
+- Date Range
+- Order Type
+
+## Dashboard Preview
+
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+## Business Logic
+
+Pending orders exclude:
+- Completed orders
+- Cancelled orders
+- Partner orders
+- Stock transfer orders
+- Milk distribution orders
+- Water distribution orders
+- Free products
+- Removed items
+
+## Author
+
+Anurag Dey
